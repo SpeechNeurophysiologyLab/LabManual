@@ -1,8 +1,15 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+title: Lab Manual
+description: YOUR DESCRIPTION
+baseurl: 'our_domain'
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+plugins:
+  - jekyll-default-layout
 
-url: https://just-the-docs.github.io
-
-aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+# Navigation
+# List links that should appear in the site sidebar here
+navigation:
+  - text: Documentation
+    internal: true
+    url: ./docs
