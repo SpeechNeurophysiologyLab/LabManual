@@ -13,3 +13,14 @@ navigation:
   - text: Documentation
     internal: true
     url: ./docs
+
+
+sidebar:
+  - getting-started
+  - label: Customization
+    children:
+      - sidebar
+      - search
+      - relative-nav
+      - additional-config
+  - development
