@@ -6,7 +6,7 @@ kramdown:
   syntax_highlighter: rouge
 plugins:
   - jekyll-default-layout
-
+theme: jekyll-theme-minimal
 # Navigation
 # List links that should appear in the site sidebar here
 navigation:
